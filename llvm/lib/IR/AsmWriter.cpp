@@ -2704,6 +2704,9 @@ void AssemblyWriter::printModule(const Module *M) {
     Out << "source_filename = \"";
     printEscapedString(M->getSourceFileName(), Out);
     Out << "\"\n";
+    Out<<"=================IR extra Information==============="<<"'\n";
+    Out<<"          Jayeshb Patidar 20111025                   "<<"'\n";
+    Out<<"===================================================="<<"'\n";
   }
 
   const std::string &DL = M->getDataLayoutStr();
